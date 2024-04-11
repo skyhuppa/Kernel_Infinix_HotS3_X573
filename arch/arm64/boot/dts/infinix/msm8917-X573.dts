@@ -10608,7 +10608,7 @@
 	};
 
 	chosen {
-		bootargs = "sched_enable_hmp=1";
+		bootargs = "sched_enable_hmp=1 hq_trigger_crash=0 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci buildvariant=user androidboot.emmc=true board_id=8034 androidboot.verifiedbootstate=yellow androidboot.veritymode=eio androidboot.keymaster=1 lock_status=lock androidboot.serialno=5034cce androidboot.authorized_kernel=true androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_dj_hx83102_5p7boe_720p_video:1:none:cfg:single_dsi";
 	};
 
 	aliases {
